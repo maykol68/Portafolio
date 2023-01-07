@@ -27,9 +27,15 @@
     :class="showNav ? 'translate-y-32 ease-in duration-500' : '-translate-y-[140%] ease-in-out duration-1000'">
         <div class="bg-white flex flex-col rounded-xl">
             <div class="w-full flex flex-col items-center">
-                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">item 1</a>
-                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">item 2</a>
-                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">item 3</a>
+                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">
+                    Proyectos
+                </a>
+                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">
+                    Sobre mí
+                </a>
+                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">
+                    Tecnologías
+                </a>
             </div>
             <div class="w-full flex items-center text-white justify-center py-6">
                 <font-awesome-icon :icon="['fab', 'linkedin']" class="text-primary mr-4" />

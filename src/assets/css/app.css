@@ -21,3 +21,11 @@ body {
 .bg-secondary {
     background-color: #ffd600;
 }
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: #41403f
+}
