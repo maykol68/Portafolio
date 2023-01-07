@@ -1,13 +1,13 @@
 <template>
-<div>
-  <h1>Hola mundo</h1>
-  <font-awesome-icon :icon="['fas', 'user']" />
+<div class="container mx-auto md:px-0">
+  <app-header></app-header>
+  <!-- <font-awesome-icon :icon="['fas', 'user']" /> -->
 </div>
 </template>
 <script>
-
+import AppHeader from '@/components/AppHeader.vue'
 export default {
   name: 'App',
-  components: {  }
+  components: { AppHeader }
 }
 </script>
