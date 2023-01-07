@@ -1,6 +1,6 @@
 <template>
     <div class="pt-24 h-screen">
-        <div class="mt-24">
+        <div class="md:mt-24">
             <p class="text-white text-center text-sm uppercase tracking-widest font-semibold">
                 <span class="text-secondary">Andrés</span> Delgado
             </p>
@@ -14,7 +14,7 @@
                     src="https://assets6.lottiefiles.com/private_files/lf30_WdTEui.json"  
                     background="transparent"  
                     speed="1"  
-                    style="width: 350px; height: 350px;"  
+                    style="width: 90%; height: 350px;"  
                     loop autoplay></lottie-player>
             </div>
         </div>
