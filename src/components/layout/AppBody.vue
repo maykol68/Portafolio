@@ -1,12 +1,15 @@
 <template>
   <div>
-    <about-me></about-me>
+    <home-presentation></home-presentation>
+    <home-projects></home-projects>
+
   </div>
 </template>
 <script>
-import AboutMe from '@/components/home/HomePresentation.vue'
+import HomePresentation from '@/components/home/HomePresentation.vue'
+import HomeProjects from '@/components/home/HomeProjects.vue'
 export default {
   name: 'app-body',
-  components: { AboutMe }
+  components: { HomePresentation, HomeProjects }
 }
 </script>

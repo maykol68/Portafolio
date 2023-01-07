@@ -4,9 +4,9 @@
             <p class="text-white text-2xl font-bold">Andres Developer</p>
         </div>
         <div class="hidden items-center md:flex">
-            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">item 1</a>
-            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">item 2</a>
-            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">item 3</a>
+            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">Proyectos</a>
+            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">Sobre mí</a>
+            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">Tecnologías</a>
         </div>
         <div class="hidden items-center text-white md:flex">
             <font-awesome-icon :icon="['fab', 'linkedin']" class="text-xl mr-4" />
