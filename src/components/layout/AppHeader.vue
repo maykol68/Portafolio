@@ -11,7 +11,7 @@
         <div class="hidden items-center text-white md:flex">
             <font-awesome-icon :icon="['fab', 'linkedin']" class="text-xl mr-4" />
             <a href="#" 
-               class="px-4 py-2 bg-secondary text-primary rounded-xl hover:bg-primary hover:text-white transition ease-in duration-500">
+               class="px-4 py-2 bg-secondary text-primary rounded-full hover:bg-primary hover:text-white transition ease-in duration-500">
                Contactame
             </a>
         </div>
@@ -35,7 +35,7 @@
                 <font-awesome-icon :icon="['fab', 'linkedin']" class="text-primary mr-4" />
                 <a 
                     href="#" 
-                    class="px-4 py-2 bg-secondary text-primary text-xl rounded-xl hover:bg-primary hover:text-white transition ease-in duration-300">
+                    class="px-4 py-2 bg-secondary text-primary text-full rounded-xl hover:bg-primary hover:text-white transition ease-in duration-300">
                     Contactame
                 </a>
             </div>
