@@ -1,5 +1,5 @@
 <template>
-   <nav class="fixed container flex items-center justify-between p-5 border-b-2 border-white z-40 lg:bg-inherit lg:text-white lg:backdrop-blur-sm">
+   <nav class="fixed container flex items-center justify-between p-5 border-b-2 border-white backdrop-blur-sm z-40 lg:bg-inherit lg:text-white">
         <div>
             <p class="text-white text-2xl font-bold">Andres Developer</p>
         </div>

@@ -14,7 +14,7 @@
                     src="https://assets6.lottiefiles.com/private_files/lf30_WdTEui.json"  
                     background="transparent"  
                     speed="1"  
-                    style="width: 90%; height: 350px;"  
+                    style="width: 90%; height: 350px; margin: 0 auto;"  
                     loop autoplay></lottie-player>
             </div>
         </div>
