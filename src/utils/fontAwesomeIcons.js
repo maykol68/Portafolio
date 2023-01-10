@@ -1,13 +1,29 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { faUser, faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faBars, faXmark, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3, faLinkedin, faJs, faVuejs, faLaravel, faPhp, faGithub } from '@fortawesome/free-brands-svg-icons'
+
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-library.add(faUser, faLinkedin, faBars, faXmark)
+let icons = [
+    faUser,
+    faLinkedin,
+    faBars,
+    faXmark,
+    faHtml5,
+    faCss3,
+    faJs,
+    faVuejs,
+    faLaravel,
+    faPhp,
+    faGithub,
+    faEnvelope
+]
+
+library.add(icons)
 
 export default FontAwesomeIcon

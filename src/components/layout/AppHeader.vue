@@ -9,7 +9,6 @@
             <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">Tecnologías</a>
         </div>
         <div class="hidden items-center text-white lg:flex">
-            <font-awesome-icon :icon="['fab', 'linkedin']" class="text-xl mr-4" />
             <a href="#" 
                class="px-4 py-2 bg-secondary text-primary rounded-full hover:bg-primary hover:text-white transition ease-in duration-500">
                Contactame
@@ -38,7 +37,6 @@
                 </a>
             </div>
             <div class="w-full flex items-center text-white justify-center py-6">
-                <font-awesome-icon :icon="['fab', 'linkedin']" class="text-primary mr-4" />
                 <a 
                     href="#" 
                     class="px-4 py-2 bg-secondary text-primary text-full rounded-xl hover:bg-primary hover:text-white transition ease-in duration-300">
