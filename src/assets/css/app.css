@@ -2,24 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --color-primary: #41403f;
+    --color-secondary: #2596be;
+}
+
 body {
-    background-color: #41403f;
+    background-color: var(--color-primary);
 }
 
 .text-primary {
-    color: #41403f;
+    color: var(--color-primary);
 }
 
 .text-secondary {
-    color: #ffd600;
+    color: var(--color-secondary);
 }
 
 .bg-primary {
-    background: #41403f;
+    background: var(--color-primary);
 }
 
 .bg-secondary {
-    background-color: #ffd600;
+    background-color: var(--color-secondary);
 }
 
 .btn {
@@ -27,5 +32,5 @@ body {
 }
 
 .btn:hover {
-    color: #41403f
+    color: var(--color-primary)
 }
