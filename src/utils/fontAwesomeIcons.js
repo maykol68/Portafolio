@@ -1,6 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { faUser, faBars, faXmark, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faBars, faXmark, faEnvelope, faChevronDown, faAnglesDown } from '@fortawesome/free-solid-svg-icons'
 
 import { faHtml5, faCss3, faLinkedin, faJs, faVuejs, faLaravel, faPhp, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -21,7 +21,9 @@ let icons = [
     faLaravel,
     faPhp,
     faGithub,
-    faEnvelope
+    faEnvelope,
+    faChevronDown,
+    faAnglesDown,
 ]
 
 library.add(icons)

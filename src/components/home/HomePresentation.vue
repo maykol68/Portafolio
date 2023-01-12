@@ -18,6 +18,11 @@
                     loop autoplay></lottie-player>
             </div>
         </div>
+        <div class="flex flex-col mt-32 text-center">
+            <a href="#projects">
+                <font-awesome-icon icon="fa-solid fa-angles-down" class="text-white text-4xl bounce" />
+            </a>
+        </div>
     </div>
 </template>
 <script>

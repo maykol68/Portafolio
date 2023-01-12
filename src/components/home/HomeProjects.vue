@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-40 px-5">
+    <div id="projects" class="pb-40 px-5">
         <h1 class="text-white text-5xl font-bold text-center">
             Proyectos destacados
         </h1>
