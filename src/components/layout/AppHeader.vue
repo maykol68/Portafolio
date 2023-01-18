@@ -6,9 +6,27 @@
             </p>
         </div>
         <div class="hidden items-center lg:flex">
-            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">Proyectos</a>
-            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">Sobre mí</a>
-            <a href="#" class="text-white text-xl mr-6 pb-2 transition ease-in hover:scale-110 duration-300">Tecnologías</a>
+            <a 
+                href="#home" 
+                class="text-white text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
+                v-smooth-scroll
+                >
+                Inicio
+            </a>
+            <a 
+                href="#about-me" 
+                class="text-white text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
+                v-smooth-scroll
+                >
+                Sobre mí
+            </a>
+            <a 
+                href="#projects" 
+                class="text-white text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
+                v-smooth-scroll 
+                >
+                Proyectos
+            </a>
         </div>
         <div class="hidden items-center text-white lg:flex">
             <a href="#" 
@@ -28,19 +46,35 @@
     :class="showNav ? 'translate-y-32 ease-in duration-500' : '-translate-y-[140%] ease-in-out duration-1000'">
         <div class="bg-white flex flex-col rounded-xl">
             <div class="w-full flex flex-col items-center">
-                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">
-                    Proyectos
+                <a 
+                    @click="closeNavbar"
+                    href="#home" 
+                    class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300"
+                    v-smooth-scroll
+                    >
+                    Inicio
                 </a>
-                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">
+                <a 
+                    @click="closeNavbar"
+                    href="#about-me" 
+                    class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300"
+                    v-smooth-scroll
+                    >
                     Sobre mí
                 </a>
-                <a href="#" class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300">
-                    Tecnologías
+                <a 
+                    @click="closeNavbar"
+                    href="#projects" 
+                    class="text-primary text-xl py-6 transition ease-in hover:scale-110 duration-300"
+                    v-smooth-scroll
+                    >
+                    Proyectos
                 </a>
             </div>
             <div class="w-full flex items-center text-white justify-center py-6">
                 <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/andr%C3%A9s-delgado-p%C3%A9rez-135a311b6/" 
+                    target="_blank"
                     class="px-4 py-2 bg-secondary rounded-full text-white hover:text-gray-300 transition ease-in duration-200">
                     Contactame
                 </a>
@@ -48,32 +82,26 @@
         </div>
    </div>
 </template>
-<script>
+<script setup>
 import { ref } from 'vue'
 
-export default {
-    name: 'AppHeader',
-    props: {},
 
-    setup() {
-        const showNav = ref(false)
+    // const myEl = ref(null)
+    // const smoothScroll = inject('smoothScroll')
+    // const scrollToMyEl = () => {
+    //     smoothScroll({
+    //     scrollTo: myEl.value,
+    //     hash: '#home'
+    //     })
+    // }
 
-        const showNavbar = () => {
-            showNav.value = true
-        }
+    const showNav = ref(false)
 
-        const closeNavbar = () => {
-            showNav.value = false
-        }
+    const showNavbar = () => {
+        showNav.value = true
+    }
 
-        return {
-            showNav,
-
-            showNavbar,
-            closeNavbar,
-
-        }
-    },
-
-}
+    const closeNavbar = () => {
+        showNav.value = false
+    }
 </script>

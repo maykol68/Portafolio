@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-40 overflow-hidden">
+    <div id="about-me" class="pb-40 overflow-hidden">
         <h2 data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" class="text-white text-5xl font-bold text-center">
             Sobre mí
         </h2>
@@ -28,13 +28,13 @@
                 </div>
                 <div class="mt-10 lg:mt-0">
                     <p class="text-white pb-4 font-bold">Contacto:</p>
-                    <a href="mailto:andresdelgadoperez19@gmail.com">
+                    <a href="mailto:andresdelgadoperez19@gmail.com" target="_blank">
                         <font-awesome-icon :icon="['fas', 'envelope']" class="text-4xl px-6 text-white" />
                     </a>
-                    <a href="https://www.linkedin.com/in/andr%C3%A9s-delgado-p%C3%A9rez-135a311b6/">
+                    <a href="https://www.linkedin.com/in/andr%C3%A9s-delgado-p%C3%A9rez-135a311b6/" target="_blank">
                         <font-awesome-icon :icon="['fab', 'linkedin']" class="text-4xl px-6 text-white" />
                     </a>
-                    <a href="https://github.com/Andres1124">
+                    <a href="https://github.com/Andres1124" target="_blank">
                         <font-awesome-icon :icon="['fab', 'github']" class="text-4xl px-6 text-white" />
                     </a>
                 </div>

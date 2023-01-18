@@ -1,5 +1,5 @@
 <template>
-    <div id="projects" class="pb-16 px-5 overflow-hidden">
+    <div id="projects" class="pb-16 px-5 overflow-hidden" v-smooth-scroll>
         <h1  data-aos="fade-up" data-aos-delay="300" data-aos-duration="700"
              class="text-white text-5xl font-bold text-center">
             Proyectos destacados

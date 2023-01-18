@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-24 h-screen overflow-hidden">
+    <div id="home" class="pt-24 h-screen overflow-hidden">
         <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="700" class="md:mt-24">
             <p class="text-white text-center text-sm uppercase tracking-widest font-semibold">
                 <span class="text-secondary">Andrés</span> Delgado
@@ -19,14 +19,16 @@
             </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="800" data-aos-duration="700" class="flex flex-col mt-24 text-center">
-            <a href="#projects">
+            <a 
+                href="#about-me"
+                v-smooth-scroll>
                 <font-awesome-icon icon="fa-solid fa-angles-down" class="text-white text-4xl bounce" />
             </a>
         </div>
     </div>
 </template>
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, } from "vue";
 import AOS from "aos";
 
 onMounted(() => {
