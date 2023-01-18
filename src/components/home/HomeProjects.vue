@@ -1,10 +1,11 @@
 <template>
-    <div id="projects" class="pb-40 px-5">
-        <h1 class="text-white text-5xl font-bold text-center">
+    <div id="projects" class="pb-16 px-5 overflow-hidden">
+        <h1  data-aos="fade-up" data-aos-delay="300" data-aos-duration="700"
+             class="text-white text-5xl font-bold text-center">
             Proyectos destacados
         </h1>
         <div class="mt-32">
-            <div class="flex flex-col justify-center lg:flex-row">
+            <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-sine" class="flex flex-col justify-center lg:flex-row">
                 <div class="w-max mx-auto lg:mx-0">
                     <img class="bg-cover w-[300px] mx-auto rounded-xl" src="../../img/project_default.png" alt="project img">
                 </div>
@@ -24,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col-reverse justify-center mt-32 lg:flex-row lg:mt-40">
+            <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-sine" class="flex flex-col-reverse justify-center mt-32 lg:flex-row lg:mt-40">
                 <div class="w-full text-center lg:text-left lg:pr-32 lg:w-1/3">
                     <h3 class="font-semibold text-white text-2xl py-8 lg:pt-0 lg:text-right">
                         Lorem ipsum dolor sit amet.
@@ -44,7 +45,7 @@
                     <img class="bg-cover w-[300px] mx-auto rounded-xl" src="../../img/project_default.png" alt="project img">
                 </div>
             </div>
-            <div class="flex flex-col justify-center mt-32 lg:flex-row lg:mt-40">
+            <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-sine" class="flex flex-col justify-center mt-32 lg:flex-row lg:mt-40">
                 <div class="w-max mx-auto lg:mx-0">
                     <img class="bg-cover w-[300px] mx-auto rounded-xl" src="../../img/project_default.png" alt="project img">
                 </div>
@@ -67,8 +68,11 @@
         </div>
     </div>
 </template>
-<script>
-export default {
-    
-}
+<script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+    AOS.init();
+})
 </script>

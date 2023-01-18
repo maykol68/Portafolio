@@ -1,8 +1,8 @@
 <template>
   <div>
     <home-presentation></home-presentation>
-    <home-projects></home-projects>
     <home-about-me></home-about-me>
+    <home-projects></home-projects>
   </div>
 </template>
 <script>
