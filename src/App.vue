@@ -1,8 +1,14 @@
 <template>
-  <div class="container mx-auto md:px-0">
-    <app-header></app-header>
-    <app-body></app-body>
-    <app-footer></app-footer>
+  <div class="">
+    <div class="container mx-auto">
+      <app-header></app-header>
+    </div>
+    <div>
+      <app-body></app-body>
+    </div>
+    <div>
+      <app-footer></app-footer>
+    </div>
   </div>
 </template>
 <script>

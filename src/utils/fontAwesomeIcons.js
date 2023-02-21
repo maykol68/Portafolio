@@ -1,6 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { faUser, faBars, faXmark, faEnvelope, faChevronDown, faAnglesDown } from '@fortawesome/free-solid-svg-icons'
+import { faSun, faMoon, faBars, faXmark, faEnvelope, faChevronDown, faAnglesDown } from '@fortawesome/free-solid-svg-icons'
 
 import { faHtml5, faCss3, faLinkedin, faJs, faVuejs, faLaravel, faPhp, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -10,7 +10,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 // Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 let icons = [
-    faUser,
+    faSun,
+    faMoon,
     faLinkedin,
     faBars,
     faXmark,
