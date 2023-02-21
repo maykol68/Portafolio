@@ -8,8 +8,9 @@
 }
 
 body {
-    background-color: var(--color-primary);
     scroll-behavior: smooth;
+    color: var(--color-primary);
+    transition: 0.8s ease;
 }
 
 .text-primary {
@@ -29,11 +30,50 @@ body {
 }
 
 .btn {
-    color: white;
+    color: var(--color-primary);
 }
 
 .btn:hover {
-    color: var(--color-primary)
+    background-color: var(--color-primary);
+    color: #ffffff;
+}
+
+#checkbox {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: var(--color-primary);
+    appearance: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+#checkbox:checked {
+    background-color: #fff;
+}
+
+#checkbox::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0.8s ease;
+}
+
+.dark-mode {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+#checkbox:checked::before {
+    transform: translateX(20px);
+    background-color: var(--color-primary);
 }
 
 .bounce {
