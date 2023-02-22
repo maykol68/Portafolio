@@ -1,7 +1,9 @@
 <template>
     <div id="projects" class="pb-20 px-5 overflow-hidden" v-smooth-scroll>
-        <h1  data-aos="fade-up" data-aos-delay="300" data-aos-duration="500"
-             class=" text-5xl font-bold text-center mt-12">
+        <h1 data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            class=" text-6xl font-bold text-center mt-12 text-secondary">
             Proyectos destacados
         </h1>
         <div class="mt-32">
@@ -24,10 +26,9 @@
                         Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
                     </p>
                     <div class="mt-6">
-                        <a href="#" class="border rounded-full
-                         w-max py-2 px-4 transition ease-in duration-300"
-                        :class="darkModeActive ? 'hover:bg-white border-white text-white hover:text-[#41403f]' : 'hover:bg-[#41403f] border-[#41403f] text-primary hover:text-white'">
-                         Ver código fuente
+                        <a href="#"
+                           class="text-secondary font-semibold tracking-wide">
+                         Ver código fuente >
                         </a>
                     </div>
                 </div>
@@ -38,17 +39,17 @@
                  data-aos-easing="ease-in-sine"
                  class="flex flex-col-reverse justify-center mt-32 lg:flex-row lg:mt-40">
                 <div class="w-full text-center lg:text-left lg:pr-32 lg:w-1/3">
-                    <h3 class="font-semibold  text-2xl py-8 lg:pt-0 lg:text-right">
+                    <h3 class="font-semibold text-2xl py-8 lg:pt-0 lg:text-right">
                         Lorem ipsum dolor sit amet.
                     </h3>
                     <p class=" lg:text-right">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
                     </p>
-                    <div class="mt-6 text-right">
-                      <a href="#" class="border rounded-full btn hover:bg-[#41403f] border-[#41403f]
-                           w-max py-2 px-4 hover:bg-white transition ease-in duration-300">
-                        Ver código fuente
+                    <div class="mt-6 lg:text-right">
+                      <a href="#"
+                         class="text-secondary font-semibold tracking-wide">
+                        Ver código fuente >
                       </a>
                     </div>
                 </div>
@@ -65,7 +66,7 @@
                     <img class="bg-cover w-[300px] mx-auto rounded-xl" src="../../img/project_default.png" alt="project img">
                 </div>
                 <div class="w-full text-center lg:text-left lg:pl-24 lg:w-1/3">
-                    <h3 class="font-semibold  text-2xl py-8 lg:pt-0">
+                    <h3 class="font-semibold text-2xl py-8 lg:pt-0">
                         Lorem ipsum dolor sit amet.
                     </h3>
                     <p class="">
@@ -73,9 +74,9 @@
                         Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
                     </p>
                     <div class="mt-6">
-                      <a href="#" class="border rounded-full btn hover:bg-[#41403f] border-[#41403f]
-                           w-max py-2 px-4 hover:bg-white transition ease-in duration-300">
-                        Ver código fuente
+                      <a href="#"
+                         class="text-secondary font-semibold tracking-wide">
+                        Ver código fuente >
                       </a>
                     </div>
                 </div>

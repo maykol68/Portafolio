@@ -1,32 +1,42 @@
 <template>
-    <div id="about-me" class="pb-12 overflow-hidden">
-        <h2 data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" class="text-5xl font-bold text-center">
-            Sobre mí
-        </h2>
-        <div class="flex flex-col justify-center mt-24 lg:flex-row">
-            <div data-aos="fade-right" data-aos-delay="500" data-aos-duration="500" data-aos-easing="ease-in-sine" class="lg:px-4">
-                <img class="w-[350px] h-[350px] mx-auto rounded-xl" src="../../img/avatar.jpg" alt="avatar">
+    <div id="about-me" class="pb-20 overflow-hidden">
+        <div class="flex flex-col justify-center lg:flex-row">
+            <div data-aos="fade-right"
+                 data-aos-delay="500"
+                 data-aos-duration="500"
+                 data-aos-easing="ease-in-sine"
+                 class="rounded-full bg-white w-[350px] h-[350px] overflow-hidden mx-auto lg:px-4"
+            >
+                <img class="w-[350px] h-[350px] mx-auto" src="../../img/avatar.png" alt="avatar">
             </div>
             <div 
                 data-aos="fade-left" 
                 data-aos-delay="550"
                 data-aos-duration="500"
-                class="flex flex-col justify-between text-center px-5 pt-5 lg:text-left lg:px-0 lg:pl-24 lg:pt-0 lg:w-1/3">
+                class="flex flex-col justify-between text-center px-5 pt-5 lg:text-left lg:px-0 lg:pl-24 lg:pt-0 lg:w-1/3"
+            >
+                <h2 class="text-6xl font-bold text-secondary"
+                >
+                  Sobre mí
+                </h2>
                 <p class="break-all">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero 
                     doloremque dolores explicabo necessitatibus voluptatum laborum ipsa optio, nobis ut quaerat!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tempore.
                 </p>
                 <div class="mt-10 lg:mt-0">
-                    <p class="pb-4 font-bold">Tecnologías:</p>
+                    <p class="pb-4 font-bold text-secondary text-lg">Tecnologías</p>
                     <div class="flex items-center justify-between flex-wrap">
-                        <div v-for="(tech, index) in tecnlogies" :key="tech + '_' + index" class="flex flex-col justify-center items-center">
+                        <div v-for="(tech, index) in tecnlogies"
+                             :key="tech + '_' + index"
+                             class="flex flex-col justify-center items-center"
+                        >
                             <font-awesome-icon :icon="`fa-brands ${tech.icon}`" class="text-4xl" :class="tech.color" />
                             <p class="font-semibold text-sm mt-1">{{ tech.name }}</p>
                         </div>
                     </div>
                 </div>
-                <div class="mt-10 lg:mt-0">
+               <!-- <div class="mt-10 lg:mt-0">
                     <p class="pb-4 font-bold">Contacto:</p>
                     <a href="mailto:andresdelgadoperez19@gmail.com" target="_blank">
                         <font-awesome-icon :icon="['fas', 'envelope']" class="text-4xl px-6" />
@@ -37,7 +47,7 @@
                     <a href="https://github.com/Andres1124" target="_blank">
                         <font-awesome-icon :icon="['fab', 'github']" class="text-4xl px-6" />
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

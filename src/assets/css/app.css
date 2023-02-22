@@ -4,7 +4,7 @@
 
 :root {
     --color-primary: #41403f;
-    --color-secondary: #2596be;
+    --color-secondary: #00AEFF;
 }
 
 body {
@@ -74,6 +74,39 @@ body {
 #checkbox:checked::before {
     transform: translateX(20px);
     background-color: var(--color-primary);
+}
+
+#checkbox2 {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: #fff;
+    appearance: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+#checkbox2:checked {
+    background-color: var(--color-primary);
+}
+
+#checkbox2::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0.8s ease;
+}
+
+#checkbox2:checked::before {
+    transform: translateX(20px);
+    background-color: #fff;
 }
 
 .bounce {

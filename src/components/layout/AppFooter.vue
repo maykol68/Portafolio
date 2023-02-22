@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col items-center justify-center p-5 border-t-2 border-white backdrop-blur-sm md:flex-row md:justify-between">
+    <div class="flex flex-col items-center justify-center p-5 border-t-2 border-white backdrop-blur-sm lg:flex-row lg:justify-between">
         <div>
-            <p class=" text-2xl font-bold">
+            <p class="text-2xl font-bold">
                 <span class="text-secondary">{{ '< ' }}</span>{{'Andres-Developer'}} <span class="text-secondary">/></span>
             </p>
         </div>

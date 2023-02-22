@@ -32,20 +32,22 @@
                 Proyectos
             </a>
         </div>
-        <div class="flex items-center lg:flex">
-            <div>
-              <font-awesome-icon @click="showNavbar" :icon="['fas', 'sun']" class="text-xl cursor-pointer mx-2" />
+        <div class="flex items-center">
+            <div class="flex items-center mr-4">
+                <div>
+                  <font-awesome-icon @click="darkMode" :icon="['fas', 'sun']" class="text-xl cursor-pointer w-12" />
+                </div>
+                <input type="checkbox" name="darkMode" id="checkbox" @click="darkMode">
+                <div>
+                  <font-awesome-icon @click="darkMode" :icon="['fas', 'moon']" class=" text-xl cursor-pointer w-12" />
+                </div>
             </div>
-            <input type="checkbox" name="darkMode" id="checkbox" @click="darkMode">
-            <div>
-              <font-awesome-icon @click="showNavbar" :icon="['fas', 'moon']" class=" text-xl cursor-pointer mx-2" />
+            <div v-if="!showNav" class="flex mr-1 lg:hidden">
+              <font-awesome-icon @click="showNavbar" :icon="['fas', 'bars']" class=" text-2xl cursor-pointer" />
             </div>
-        </div>
-        <div v-if="!showNav" class="flex mr-1 lg:hidden">
-            <font-awesome-icon @click="showNavbar" :icon="['fas', 'bars']" class=" text-2xl cursor-pointer" />
-        </div>
-         <div v-else class="flex mr-1 lg:hidden">
-            <font-awesome-icon @click="closeNavbar" :icon="['fas', 'xmark']" class=" text-2xl cursor-pointer" />
+            <div v-else class="flex mr-1 lg:hidden">
+              <font-awesome-icon @click="closeNavbar" :icon="['fas', 'xmark']" class=" text-2xl cursor-pointer" />
+            </div>
         </div>
    </nav>
    <div 
@@ -82,7 +84,7 @@
                 <a 
                     href="https://www.linkedin.com/in/andr%C3%A9s-delgado-p%C3%A9rez-135a311b6/" 
                     target="_blank"
-                    class="px-4 py-2 bg-secondary rounded-full  hover:text-gray-300 transition ease-in duration-200">
+                    class="px-4 py-2 bg-secondary rounded-xl  hover:text-gray-300 transition ease-in duration-200">
                     Contactame
                 </a>
             </div>
