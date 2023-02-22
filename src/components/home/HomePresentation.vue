@@ -18,7 +18,7 @@
                data-aos-delay="700"
                data-aos-duration="500"
                class="mt-8 text-xl font-semibold md:text-4xl">
-              Desarrolador <span class="text-secondary">Web</span>
+              Desarrollador <span class="text-secondary">Web</span>
             </p>
           </div>
           <div data-aos="fade-up"
@@ -41,7 +41,7 @@
             <a 
                 href="#about-me"
                 v-smooth-scroll>
-                <font-awesome-icon icon="fa-solid fa-angles-down" class="text-5xl md:text-6xl bounce" />
+                <font-awesome-icon icon="fa-solid fa-angles-down" class="text-5xl md:text-6xl" />
             </a>
         </div>
     </div>
