@@ -1,28 +1,32 @@
 <template>
-    <div id="about-me" class="pb-20 overflow-hidden">
+    <div id="about-me" class="pb-20 container mx-auto overflow-hidden">
         <div class="flex flex-col justify-center lg:flex-row">
             <div data-aos="fade-right"
                  data-aos-delay="500"
                  data-aos-duration="500"
                  data-aos-easing="ease-in-sine"
-                 class="rounded-full bg-white w-[350px] h-[350px] overflow-hidden mx-auto lg:px-4"
+                 class="w-full lg:w-1/2 lg:px-4"
             >
+              <div class="rounded-full bg-white overflow-hidden w-max mx-auto border-4 border-[#00AEFF]">
                 <img class="w-[350px] h-[350px] mx-auto" src="../../img/avatar.png" alt="avatar">
+              </div>
             </div>
             <div 
                 data-aos="fade-left" 
                 data-aos-delay="550"
                 data-aos-duration="500"
-                class="flex flex-col justify-between text-center px-5 pt-5 lg:text-left lg:px-0 lg:pl-24 lg:pt-0 lg:w-1/3"
+                class="flex flex-col justify-between text-center px-5 pt-5 lg:text-left lg:px-0 lg:pt-0 lg:w-1/2"
             >
-                <h2 class="text-6xl font-bold text-secondary"
+                <h2 class="text-6xl font-bold text-secondary pb-4 lg:pb-0"
                 >
                   Sobre mí
                 </h2>
                 <p class="break-all">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero 
-                    doloremque dolores explicabo necessitatibus voluptatum laborum ipsa optio, nobis ut quaerat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tempore.
+                  Soy un desarrollador con experiencia en PHP, Laravel, JavaScript, Vue.js y MySQL,
+                  con una sólida comprensión de los conceptos fundamentales de la programación.
+                  He trabajado en proyectos web y estoy familiarizado con metodologías ágiles como Scrum.
+                  Me apasiona la tecnología y siempre busco aprender nuevas herramientas y técnicas para mejorar mi trabajo.
+                  Siempre estoy buscando nuevas oportunidades para expandir mis conocimientos y habilidades en el desarrollo web.
                 </p>
                 <div class="mt-10 lg:mt-0">
                     <p class="pb-4 font-bold text-secondary text-lg">Tecnologías</p>
