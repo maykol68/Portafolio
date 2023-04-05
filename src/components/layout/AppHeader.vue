@@ -69,7 +69,7 @@
                     class="text-xl py-6 transition ease-in hover:scale-110 duration-300"
                     v-smooth-scroll
                     >
-                    Sobre mí
+                    About me
                 </a>
                 <a 
                     @click="closeNavbar"
