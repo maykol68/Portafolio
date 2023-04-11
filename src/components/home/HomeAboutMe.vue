@@ -22,6 +22,7 @@
                   Sobre mí
                 </h2>
                 <p class="break-all">
+                    Desarrollador ruby on rails 
                     Motivado, apto para el trabajo en
                     equipo y con fuertes habilidades
                     organizativas e interpersonales.
@@ -29,8 +30,6 @@
                     nuevas habilidades, asumir
                     responsabilidades adicionales y
                     crecer profesionalmente.
-                    Impulsado a lograr los mejores
-                    resultados para los clientes
                 </p>
                 <div class="mt-10 lg:mt-0">
                     <p class="pb-4 font-bold text-secondary text-lg">Tecnologías</p>
@@ -78,22 +77,6 @@
             icon: 'fa-laravel',
             color: 'text-red-600',
         },
-        {
-            name: 'gem',
-            icon: 'far-gem',
-            color: 'text-red-600',
-        },
-        {
-            name: 'postgresql',
-            icon: 'fa-gem',
-            color: 'text-blue-600',
-        },
-        {
-            name: 'Redmine',
-            icon: 'fa-gem',
-            color: 'text-blue-600',
-        },
-       
     ])
 
     onMounted(() => {

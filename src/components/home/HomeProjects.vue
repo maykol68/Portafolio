@@ -22,12 +22,12 @@
                         Compralo!   
                     </h3>
                     <p class="">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
+                        Aplicación parecida a mercado libre o wallapop, para vender productos que ya no se usen!
+                        
                     </p>
                     <div class="mt-6">
                         <a 
-                        href="" 
+                        href="https://github.com/maykol68/Ruby-1.2" 
                             target="_blank"
                            class="text-secondary font-semibold tracking-wide">
                          Ver Proyecto>
@@ -45,8 +45,7 @@
                         Api with ruby on rails
                     </h3>
                     <p class=" lg:text-right">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
+                        Api en ruby on rails y postman!
                     </p>
                     <div class="mt-6 lg:text-right">
                       <a href="https://github.com/maykol68/Ruby-1.1"
@@ -69,11 +68,10 @@
                 </div>
                 <div class="w-full text-center lg:text-left lg:pl-24 lg:w-1/3">
                     <h3 class="font-semibold text-2xl py-8 lg:pt-0">
-                        Lorem ipsum dolor sit amet.
+                        coming soon..
                     </h3>
                     <p class="">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
+                        coming soon..
                     </p>
                     <div class="mt-6">
                       <a href="#"
