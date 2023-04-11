@@ -3,10 +3,10 @@
         :class="!darkModeActive ? 'border-[#41403f]' : 'border-white'">
         <div>
             <p class="text-2xl font-bold hidden md:flex">
-                <span class="text-secondary">{{ '< ' }}</span>{{'Andres-Developer'}} <span class="text-secondary">/></span>
+                <span class="text-secondary">{{ '🔻' }}</span>{{'Michael'}} <span class="text-secondary">🔻</span>
             </p>
             <p class=" text-2xl font-bold md:hidden">
-              <span class="text-secondary">{{ '< ' }}</span>{{'Andres'}} <span class="text-secondary">/></span>
+              <span class="text-secondary">{{ '🔻' }}</span>{{'Michael'}} <span class="text-secondary">🔻</span>
             </p>
         </div>
         <div class="hidden items-center lg:flex">
@@ -22,7 +22,7 @@
                 class=" text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
                 v-smooth-scroll
                 >
-                Sobre mí
+                Sobre mi
             </a>
             <a 
                 href="#projects" 
@@ -69,7 +69,7 @@
                     class="text-xl py-6 transition ease-in hover:scale-110 duration-300"
                     v-smooth-scroll
                     >
-                    About me
+                   sobre mi
                 </a>
                 <a 
                     @click="closeNavbar"
@@ -91,9 +91,9 @@
         </div>
    </div>
 </template>
+
 <script setup>
 import { ref } from 'vue'
-
 
     // const myEl = ref(null)
     // const smoothScroll = inject('smoothScroll')
@@ -122,6 +122,6 @@ import { ref } from 'vue'
         else darkModeActive.value = true;
 
     }
-
+    
 
 </script>

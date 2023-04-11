@@ -6,19 +6,19 @@
                data-aos-delay="300"
                data-aos-duration="500"
                class="mt-4 text-6xl font-semibold md:text-9xl">
-              Andrés
+              Michael
             </p>
             <p data-aos="fade-right"
                data-aos-delay="500"
                data-aos-duration="500"
                class="mt-4 text-6xl font-semibold md:text-9xl text-secondary">
-              Delgado
+              Moreno
             </p>
             <p data-aos="fade-right"
                data-aos-delay="700"
                data-aos-duration="500"
                class="mt-8 text-xl font-semibold md:text-4xl">
-              Desarrollador <span class="text-secondary">Web</span>
+               <span class="text-secondary">developer</span> Ruby <span class="text-secondary">on</span> rails
             </p>
           </div>
           <div data-aos="fade-up"

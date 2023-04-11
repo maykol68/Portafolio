@@ -1,7 +1,7 @@
 <template>
   <div>
     <home-presentation></home-presentation>
-    <home-about-me></home-about-me>
+    <home-about-me></home-about-me> 
     <home-projects></home-projects>
   </div>
 </template>

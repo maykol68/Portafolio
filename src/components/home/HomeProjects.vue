@@ -13,22 +13,24 @@
                  data-aos-easing="ease-in-sine"
                  class="flex flex-col justify-center lg:flex-row">
                 <div class="w-max mx-auto lg:mx-0">
-                    <img class="bg-cover w-[300px] mx-auto rounded-xl"
-                         src="../../img/project_default.png"
+                    <img class="bg-cover w-[500px] mx-auto rounded-xl"
+                         src="../../img/compralo.png"
                          alt="project img">
                 </div>
                 <div class="w-full text-center lg:text-left lg:pl-24 lg:w-1/3">
                     <h3 class="font-semibold text-2xl py-8 lg:pt-0">
-                        Lorem ipsum dolor sit amet.
+                        Compralo!   
                     </h3>
                     <p class="">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
                     </p>
                     <div class="mt-6">
-                        <a href="#"
+                        <a 
+                        href="" 
+                            target="_blank"
                            class="text-secondary font-semibold tracking-wide">
-                         Ver código fuente >
+                         Ver Proyecto>
                         </a>
                     </div>
                 </div>
@@ -40,14 +42,14 @@
                  class="flex flex-col-reverse justify-center mt-32 lg:flex-row lg:mt-40">
                 <div class="w-full text-center lg:text-left lg:pr-32 lg:w-1/3">
                     <h3 class="font-semibold text-2xl py-8 lg:pt-0 lg:text-right">
-                        Lorem ipsum dolor sit amet.
+                        Api with ruby on rails
                     </h3>
                     <p class=" lg:text-right">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         Quam corporis corrupti tenetur, aliquid ut ab nam explicabo voluptatibus eveniet amet!
                     </p>
                     <div class="mt-6 lg:text-right">
-                      <a href="#"
+                      <a href="https://github.com/maykol68/Ruby-1.1"
                          class="text-secondary font-semibold tracking-wide">
                         Ver código fuente >
                       </a>

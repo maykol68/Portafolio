@@ -7,8 +7,8 @@
                  data-aos-easing="ease-in-sine"
                  class="w-full lg:w-1/2 lg:px-4"
             >
-              <div class="rounded-full bg-white overflow-hidden w-max mx-auto border-4 border-[#00AEFF]">
-                <img class="w-[350px] h-[350px] mx-auto" src="../../img/avatar.png" alt="avatar">
+              <div class="rounded-full bg-white overflow-hidden w-max mx-auto border-4 border-[#000000]">
+                <img class="w-[350px] h-[350px] mx-auto" src="../../img/avatar.jpeg" alt="avatar">
               </div>
             </div>
             <div 
@@ -22,36 +22,27 @@
                   Sobre mí
                 </h2>
                 <p class="break-all">
-                  Soy un desarrollador con experiencia en PHP, Laravel, JavaScript, Vue.js y MySQL,
-                  con una sólida comprensión de los conceptos fundamentales de la programación.
-                  He trabajado en proyectos web y estoy familiarizado con metodologías ágiles como Scrum.
-                  Me apasiona la tecnología y siempre busco aprender nuevas herramientas y técnicas para mejorar mi trabajo.
-                  Siempre estoy buscando nuevas oportunidades para expandir mis conocimientos y habilidades en el desarrollo web.
+                    Motivado, apto para el trabajo en
+                    equipo y con fuertes habilidades
+                    organizativas e interpersonales.
+                    Siempre buscando aprender
+                    nuevas habilidades, asumir
+                    responsabilidades adicionales y
+                    crecer profesionalmente.
+                    Impulsado a lograr los mejores
+                    resultados para los clientes
                 </p>
                 <div class="mt-10 lg:mt-0">
                     <p class="pb-4 font-bold text-secondary text-lg">Tecnologías</p>
                     <div class="flex items-center justify-between flex-wrap">
                         <div v-for="(tech, index) in tecnlogies"
                              :key="tech + '_' + index"
-                             class="flex flex-col justify-center items-center"
-                        >
+                             class="flex flex-col justify-center items-center">
                             <font-awesome-icon :icon="`fa-brands ${tech.icon}`" class="text-4xl" :class="tech.color" />
                             <p class="font-semibold text-sm mt-1">{{ tech.name }}</p>
                         </div>
                     </div>
                 </div>
-               <!-- <div class="mt-10 lg:mt-0">
-                    <p class="pb-4 font-bold">Contacto:</p>
-                    <a href="mailto:andresdelgadoperez19@gmail.com" target="_blank">
-                        <font-awesome-icon :icon="['fas', 'envelope']" class="text-4xl px-6" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/andr%C3%A9s-delgado-p%C3%A9rez-135a311b6/" target="_blank">
-                        <font-awesome-icon :icon="['fab', 'linkedin']" class="text-4xl px-6" />
-                    </a>
-                    <a href="https://github.com/Andres1124" target="_blank">
-                        <font-awesome-icon :icon="['fab', 'github']" class="text-4xl px-6" />
-                    </a>
-                </div> -->
             </div>
         </div>
     </div>
@@ -83,15 +74,26 @@
             color: 'text-blue-500',
         },
         {
-            name: 'VueJs',
-            icon: 'fa-vuejs',
-            color: 'text-green-600',
-        },
-        {
             name: 'Laravel',
             icon: 'fa-laravel',
             color: 'text-red-600',
         },
+        {
+            name: 'gem',
+            icon: 'far-gem',
+            color: 'text-red-600',
+        },
+        {
+            name: 'postgresql',
+            icon: 'fa-gem',
+            color: 'text-blue-600',
+        },
+        {
+            name: 'Redmine',
+            icon: 'fa-gem',
+            color: 'text-blue-600',
+        },
+       
     ])
 
     onMounted(() => {
