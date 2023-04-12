@@ -19,26 +19,20 @@
             >
                 <h2 class="text-6xl font-bold text-secondary pb-4 lg:pb-0"
                 >
-                  Sobre mí
+                {{ $t("aboutme") }}
                 </h2>
                 <p class="break-all">
-                    Desarrollador ruby on rails 
-                    Motivado, apto para el trabajo en
-                    equipo y con fuertes habilidades
-                    organizativas e interpersonales.
-                    Siempre buscando aprender
-                    nuevas habilidades, asumir
-                    responsabilidades adicionales y
-                    crecer profesionalmente.
+                    {{ $t("aboutmetoo") }} 
                 </p>
                 <div class="mt-10 lg:mt-0">
-                    <p class="pb-4 font-bold text-secondary text-lg">Tecnologías</p>
+                    <p class="pb-4 font-bold text-secondary text-lg">{{ $t("technologys") }}</p>
                     <div class="flex items-center justify-between flex-wrap">
                         <div v-for="(tech, index) in tecnlogies"
                              :key="tech + '_' + index"
                              class="flex flex-col justify-center items-center">
-                            <font-awesome-icon :icon="tech.name === 'Ruby' ? `fa ${tech.icon}`:`fa-brands ${tech.icon}`" 
+                            <font-awesome-icon :icon="tech.name === 'Ruby' || 'Postgresql'? `fa ${tech.icon}`:`fa-brands ${tech.icon}`"  
                                 class="text-4xl" :class="tech.color" />
+                            <font-awesome-icon :icon="`fa-brands ${tech.icon}`" class="text-4xl" :class="tech.color" />
                             <p class="font-semibold text-sm mt-1">{{ tech.name }}</p>
                         </div>
                     </div>
@@ -79,9 +73,14 @@
             color: 'text-red-600',
         },
         {
-            name: 'Ruby',
+            name: 'Ruby on rails',
             icon: 'fa-gem',
             color: 'text-red-600',
+        },
+        {
+            name: 'Postgresql',
+            icon: 'fa-database',
+            color: 'text-blue-500',
         },
 
     ])

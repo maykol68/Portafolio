@@ -4,7 +4,7 @@
             data-aos-delay="300"
             data-aos-duration="500"
             class=" text-6xl font-bold text-center mt-12 text-secondary">
-            Proyectos destacados
+            {{ $t("Featuredprojects") }}
         </h1>
         <div class="mt-32">
             <div data-aos="fade-right"
@@ -19,17 +19,17 @@
                 </div>
                 <div class="w-full text-center lg:text-left lg:pl-24 lg:w-1/3">
                     <h3 class="font-semibold text-2xl py-8 lg:pt-0">
-                        Compralo!   
+                        {{ $t("buyit") }}
                     </h3>
                     <p class="">
-                        Aplicación parecida a mercado libre o wallapop, para vender productos que ya no se usen!
+                        {{ $t("buyitext") }}
                         
                     </p>
                     <div class="mt-6">
                         <a 
                             @click="goToUrl('https://github.com/maykol68/Ruby-1.2')"
                            class="text-secondary font-semibold tracking-wide">
-                         Ver Proyecto>
+                           {{ $t("seep") }}
                         </a>
                     </div>
                 </div>
@@ -41,15 +41,15 @@
                  class="flex flex-col-reverse justify-center mt-32 lg:flex-row lg:mt-40">
                 <div class="w-full text-center lg:text-left lg:pr-32 lg:w-1/3">
                     <h3 class="font-semibold text-2xl py-8 lg:pt-0 lg:text-right">
-                        Api with ruby on rails
+                        {{ $t("api") }}
                     </h3>
                     <p class=" lg:text-right">
-                        Api en ruby on rails y postman!
+                        {{ $t("apitxt") }}
                     </p>
                     <div class="mt-6 lg:text-right">
-                      <a href="https://github.com/maykol68/Ruby-1.1"
+                      <a @click="goToUrl('https://github.com/maykol68/Ruby-1.1')"
                          class="text-secondary font-semibold tracking-wide">
-                        Ver código fuente >
+                         {{ $t("seep") }}
                       </a>
                     </div>
                 </div>
@@ -67,15 +67,15 @@
                 </div>
                 <div class="w-full text-center lg:text-left lg:pl-24 lg:w-1/3">
                     <h3 class="font-semibold text-2xl py-8 lg:pt-0">
-                        coming soon..
+                        {{ $t("soon") }}
                     </h3>
                     <p class="">
-                        coming soon..
+                        {{ $t("soon") }}
                     </p>
                     <div class="mt-6">
                       <a href="#"
                          class="text-secondary font-semibold tracking-wide">
-                        Ver código fuente >
+                         {{ $t("soon") }}
                       </a>
                     </div>
                 </div>

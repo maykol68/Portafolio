@@ -18,9 +18,9 @@
         </div>
     </div>
     <div class="py-1 text-center">
-        <p class=" text-sm">
-            &copy; Michael steven
-        </p>
+        <a class=" text-sm" href="https://github.com/Andres1124">
+            &copy; Andres Delgado 
+        </a>
     </div>
 </template>
 <script>

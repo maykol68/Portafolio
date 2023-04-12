@@ -1,4 +1,18 @@
 {
-    "helloword" :"Hola mundo"
+    "aboutme" :"Sobre mí",
+    "project":"Proyectos",
+    "home" :"Inicio",
+    "technologys" :"Tecnologias",
+    "Featuredprojects" :"Proyectos destacados",
+    "deveploper" :"Desarrollador",
+    "buyit" :"Compralo!",
+    "buyitext" :"Application similar to free market or wallapop, to sell products that are no longer used!",
+    "seep":"Ver codigo fuente",
+    "aboutmetoo":"Ruby on rails developer Motivated, suitable for teamwork and with strong organizational and interpersonal skills. Always looking to learn new skills, take on additional responsibilities, and grow professionally.",
+    "api":"APIs en ruby ​​on rails",
+    "apitxt":"crud in ruby ​​​​on rails with postman, consuming and creating an Api's",
+    "soon":"Pronto..",
+    "contactme":" Contactame"
+    
 
 }

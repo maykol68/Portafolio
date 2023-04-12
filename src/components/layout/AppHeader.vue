@@ -15,21 +15,21 @@
                 class=" text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
                 v-smooth-scroll
                 >
-                Inicio
+                {{ $t("home") }}
             </a>
             <a 
                 href="#about-me" 
                 class=" text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
                 v-smooth-scroll
                 >
-                {{ $t("helloword") }}
+                {{ $t("aboutme") }}
             </a>
             <a 
                 href="#projects" 
                 class=" text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
                 v-smooth-scroll 
                 >
-                Projects
+                {{ $t("project") }}
             </a>
             <select v-model="$i18n.locale">
                 <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
@@ -64,7 +64,7 @@
                     class="text-xl py-6 transition ease-in hover:scale-110 duration-300"
                     v-smooth-scroll
                     >
-                    Inicio
+                    {{ $t("home") }}
                 </a>
                 <a 
                     @click="closeNavbar"
@@ -72,7 +72,7 @@
                     class="text-xl py-6 transition ease-in hover:scale-110 duration-300"
                     v-smooth-scroll
                     >
-                   sobre mi
+                    {{ $t("aboutme") }}
                 </a>
                 <a 
                     @click="closeNavbar"
@@ -80,19 +80,18 @@
                     class="text-xl py-6 transition ease-in hover:scale-110 duration-300"
                     v-smooth-scroll
                     >
-                    Proyectos
+                    {{ $t("project") }}
                 </a>
-                <select name="lang" v-model="lang">
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
+                <select v-model="$i18n.locale">
+                    <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
                 </select>
             </div>
             <div class="w-full flex items-center  justify-center py-6">
                 <a 
-                    href="https://www.linkedin.com/in/andr%C3%A9s-delgado-p%C3%A9rez-135a311b6/" 
+                    href="https://www.linkedin.com/in/michael-moreno12651/" 
                     target="_blank"
                     class="px-4 py-2 bg-secondary rounded-xl  hover:text-gray-300 transition ease-in duration-200">
-                    Contactame
+                    {{ $t("contactme") }}
                 </a>
             </div>
         </div>

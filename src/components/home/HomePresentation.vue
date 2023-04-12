@@ -18,7 +18,7 @@
                data-aos-delay="700"
                data-aos-duration="500"
                class="mt-8 text-xl font-semibold md:text-4xl">
-               <span class="text-secondary">developer</span> Ruby <span class="text-secondary">on</span> rails
+               <span class="text-secondary"> {{ $t("deveploper") }}</span> Ruby <span class="text-secondary">on</span> rails
             </p>
           </div>
           <div data-aos="fade-up"
@@ -27,7 +27,12 @@
                data-aos-easing="ease-in-sine"
                class="w-full lg:mt-20 lg:w-1/2"
           >
-            
+          <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_gaj2imtz.json"  
+            background="transparent"  
+            speed="1"  
+            style="width: 100%; height: 100%; margin: auto"  
+            loop  autoplay>
+          </lottie-player>
           </div>
       </div>
         <div data-aos="fade-up"
