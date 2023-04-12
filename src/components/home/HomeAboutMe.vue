@@ -37,7 +37,8 @@
                         <div v-for="(tech, index) in tecnlogies"
                              :key="tech + '_' + index"
                              class="flex flex-col justify-center items-center">
-                            <font-awesome-icon :icon="`fa-brands ${tech.icon}`" class="text-4xl" :class="tech.color" />
+                            <font-awesome-icon :icon="tech.name === 'Ruby' ? `fa ${tech.icon}`:`fa-brands ${tech.icon}`" 
+                                class="text-4xl" :class="tech.color" />
                             <p class="font-semibold text-sm mt-1">{{ tech.name }}</p>
                         </div>
                     </div>
@@ -77,6 +78,12 @@
             icon: 'fa-laravel',
             color: 'text-red-600',
         },
+        {
+            name: 'Ruby',
+            icon: 'fa-gem',
+            color: 'text-red-600',
+        },
+
     ])
 
     onMounted(() => {

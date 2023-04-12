@@ -13,7 +13,7 @@
                  data-aos-easing="ease-in-sine"
                  class="flex flex-col justify-center lg:flex-row">
                 <div class="w-max mx-auto lg:mx-0">
-                    <img class="bg-cover w-[500px] mx-auto rounded-xl"
+                    <img class="bg-cover w-[300px] mx-auto rounded-xl"
                          src="../../img/compralo.png"
                          alt="project img">
                 </div>
@@ -27,8 +27,7 @@
                     </p>
                     <div class="mt-6">
                         <a 
-                        href="https://github.com/maykol68/Ruby-1.2" 
-                            target="_blank"
+                            @click="goToUrl('https://github.com/maykol68/Ruby-1.2')"
                            class="text-secondary font-semibold tracking-wide">
                          Ver Proyecto>
                         </a>
@@ -91,4 +90,7 @@ import AOS from "aos";
   onMounted(() => {
       AOS.init();
   })
+  const goToUrl = (url) => {
+        window.open(url, '_blank')
+  }
 </script>

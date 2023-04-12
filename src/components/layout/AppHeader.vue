@@ -22,14 +22,14 @@
                 class=" text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
                 v-smooth-scroll
                 >
-                Sobre mi
+                About me
             </a>
             <a 
                 href="#projects" 
                 class=" text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
                 v-smooth-scroll 
                 >
-                Proyectos
+                Projects
             </a>
         </div>
         <div class="flex items-center">
@@ -79,6 +79,10 @@
                     >
                     Proyectos
                 </a>
+                <select name="lang" v-model="lang">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
             </div>
             <div class="w-full flex items-center  justify-center py-6">
                 <a 
@@ -103,7 +107,7 @@ import { ref } from 'vue'
     //     hash: '#home'
     //     })
     // }
-
+    
     const showNav = ref(false)
     const darkModeActive = ref(false);
 
@@ -122,6 +126,5 @@ import { ref } from 'vue'
         else darkModeActive.value = true;
 
     }
-    
 
 </script>
