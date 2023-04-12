@@ -27,11 +27,7 @@
                data-aos-easing="ease-in-sine"
                class="w-full lg:mt-20 lg:w-1/2"
           >
-            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_PF7Jq8VA8O.json"
-                           background="transparent"
-                           speed="1.5"
-                           style="width: 100%; height: 100%; margin: auto"
-                           loop autoplay></lottie-player>
+            
           </div>
       </div>
         <div data-aos="fade-up"

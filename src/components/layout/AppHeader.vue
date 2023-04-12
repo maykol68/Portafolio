@@ -22,7 +22,7 @@
                 class=" text-xl px-6 pb-2 transition ease-in hover:scale-110 duration-300" 
                 v-smooth-scroll
                 >
-                About me
+                {{ $t("helloword") }}
             </a>
             <a 
                 href="#projects" 
@@ -31,6 +31,9 @@
                 >
                 Projects
             </a>
+            <select v-model="$i18n.locale">
+                <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+              </select>
         </div>
         <div class="flex items-center">
             <div class="flex items-center mr-4">
