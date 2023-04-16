@@ -84,9 +84,11 @@
                     >
                     {{ $t("project") }}
                 </a>
-                <select v-model="$i18n.locale">
-                    <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
-                </select>
+                <select v-model="$i18n.locale"
+                class="flex flex-col rounded-xl" :class="!darkModeActive ?  'bg-white text-primary text-xl px-6 pb-2': 'bg-primary text-white text-xl px-6 pb-2' "
+                v-smooth-scroll >
+                <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+              </select>
             </div>
             <div class="w-full flex items-center  justify-center py-6">
                 <a 
