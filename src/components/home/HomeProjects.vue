@@ -63,19 +63,19 @@
                  data-aos-easing="ease-in-sine"
                  class="flex flex-col justify-center mt-32 lg:flex-row lg:mt-40">
                 <div class="w-max mx-auto lg:mx-0">
-                    <img class="bg-cover w-[300px] mx-auto rounded-xl" src="../../img/project_default.png" alt="project img">
+                    <img class="bg-cover w-[300px] mx-auto rounded-xl" src="../../img/Restaurant.png" alt="project img">
                 </div>
                 <div class="w-full text-center lg:text-left lg:pl-24 lg:w-1/3">
                     <h3 class="font-semibold text-2xl py-8 lg:pt-0">
-                        {{ $t("soon") }}
+                        {{ $t("restaurant") }}
                     </h3>
                     <p class="">
-                        {{ $t("soon") }}
+                        {{ $t("restauranttext") }}
                     </p>
                     <div class="mt-6">
-                      <a href="#"
+                      <a @click="goToUrl('https://github.com/maykol68/Restaurant_Reservation_System')"
                          class="text-secondary font-semibold tracking-wide">
-                         {{ $t("soon") }}
+                         {{ $t("seep") }}
                       </a>
                     </div>
                 </div>
